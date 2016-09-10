@@ -1,0 +1,89 @@
+canvas#snake {
+  border: 2px solid #333;
+  box-shadow: 4px 4px 4px #777;
+  background-color: white;
+}
+
+.middle {
+	width: 760px;
+  height: 480px;
+
+  position: absolute;
+  top: 10%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+.instructions
+{
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 0;
+  right: 0;
+}
+
+.instructions2
+{
+  position: absolute;
+  top: 45%;
+  bottom: 45%;
+  left: 0;
+  right: 0;
+}
+
+.instructions3
+{
+  position: absolute;
+  top: 40%;
+  bottom: 40%;
+  left: 0;
+  right: 0;
+}
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px; 
+   font-size:75%;
+}
+
+img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 85%;
+  height: 15%;
+  width: 15%;
+}
+
+.middle-space {
+  position: absolute;
+  margin: auto;
+  top: 50%;
+  left: 40%;
+  right: 40%;
+  bottom: 50%;
+}
+
+.middle-score {
+  position: absolute;
+  margin: auto;
+  top: 25%;
+  left: 40%;
+  right: 40%;
+  bottom: 25%;
+}
+
+.p-other
+{
+  font-family: calibri;
+  color: green;
+  font-size:50px;
+}
